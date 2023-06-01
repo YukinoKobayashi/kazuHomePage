@@ -1,0 +1,39 @@
+
+/* ボタン全体 */
+.flowbtn10{
+display:inline-block;
+font-size:35px;
+text-decoration:none;
+transition:.5s;
+color:#444;
+}
+/* インスタ・pocket・ラインだけ少し大きく */
+.flowbtn10 .fa-instagram,.flowbtn10 .fa-get-pocket,.flowbtn10 .fa-get-pocket,.flowbtn10 .fa-line{
+font-size:38px;
+}
+
+/* Instagramマウスホバー時 */
+.flowbtn10 .fa-instagram:hover{
+color:#c6529a;
+}
+
+/* メールアイコンマウスホバー時 */
+.flowbtn10 .fa-envelope:hover{
+color:#6699CC;
+}
+/* ulタグの内側余白を０にする */
+ul.snsbtniti{
+padding:0!important;
+list-style-type:none!important;
+}
+/* アイコン全体の位置 */
+.snsbtniti{
+display:flex;
+flex-flow:row wrap;
+justify-content:flex-start;
+}
+/* アイコン同士の余白 */
+/* .snsbtniti li{
+flex:0 0 33%;
+text-align:center!important;
+} */
