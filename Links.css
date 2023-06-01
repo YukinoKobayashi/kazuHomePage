@@ -1,0 +1,19 @@
+
+/* ボタン全体 */
+.flowbtn10{
+display:inline-block;
+font-size:15px;
+text-decoration:none;
+transition:.5s;
+color:#444;
+}
+
+/* ひとマウスホバー時 */
+.flowbtn10 .fa-child:hover{
+color:#f3981d;
+}
+
+/* ulタグの内側余白を０にする */
+.aka{
+color:#F00;
+}
