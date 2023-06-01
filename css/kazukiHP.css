@@ -25,6 +25,9 @@ color:#336666;
 .Research:hover{
 color:#336666;
 }
+.Date:hover{
+color:#336666;
+}
 .Publication:hover{
 color:#336666;
 }
@@ -36,4 +39,9 @@ color:#336666;
 }
 .Links:hover{
 color:#336666;
+}
+
+/* menuマウスホバー時 */
+.nav-list>li.current>a {
+color:red;
 }
